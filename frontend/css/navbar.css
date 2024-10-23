@@ -1,0 +1,60 @@
+/* Sticky Navbar */
+nav {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1000 !important;
+    background-color: #24262b !important;
+    padding: 15px !important;
+}
+
+/* Navbar Links */
+nav a {
+    color: white !important;
+    text-decoration: none !important;
+    margin: 0 15px !important;
+    transition: transform 0.2s ease !important;
+    /* Add transition for smooth movement */
+}
+
+nav a:hover {
+    color: #e91e63 !important;
+    transform: translateX(5px) !important;
+    /* Move slightly to the right on hover */
+}
+
+.move:hover {
+    color: #e91e63 !important;
+    transform: translateX(5px) !important;
+    /* Move slightly to the right on hover */
+}
+
+/* Dropdown Fix */
+.dropdown-menu {
+    display: none !important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block !important;
+}
+
+/* Additional Styling */
+.dropdown-menu a {
+    color: black !important;
+}
+
+.dropdown-menu a:hover {
+    background-color: #e91e63 !important;
+    color: white !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    nav a {
+        margin: 10px 0 !important;
+    }
+}

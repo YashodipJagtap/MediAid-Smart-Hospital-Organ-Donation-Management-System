@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Prediction</title>
+    <link rel="stylesheet" href="../css/diseases.css">
+</head>
+
+<body>
+    <header>
+        <!-- Include Navbar -->
+        <div id="navbar"></div>
+    </header>
+
+    <main>
+        <h1>Check Your Symptoms</h1>
+        <form id="symptomForm">
+            <label for="symptoms">Enter your symptoms (comma-separated):</label>
+            <input type="text" id="symptoms" name="symptoms" placeholder="E.g. fever, cough, headache" required>
+            <button type="submit">Predict Disease</button>
+        </form>
+
+        <div id="result">
+            <!-- Prediction results will appear here -->
+        </div>
+    </main>
+
+    <footer>
+        <!-- Include Footer -->
+        <div id="footer"></div>
+    </footer>
+
+    <!-- Add this script at the bottom to load JS after the DOM -->
+    <script src="../js/diseases.js"></script>
+</body>
+
+</html>

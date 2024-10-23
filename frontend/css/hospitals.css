@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f9f9f9; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    margin: 200px;
+    padding: 20px;
+    /* background-color: #fff; */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: 80%;
+
+}
+
+#locationInput {
+    width: 40%;
+    margin: 40px !important;
+    padding: 40px;
+    font-size: 16px;
+}
+
+#searchButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#hospitalList {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.hospital {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

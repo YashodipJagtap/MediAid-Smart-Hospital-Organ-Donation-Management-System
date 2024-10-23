@@ -1,0 +1,17 @@
+/* contact.css */
+
+main {
+    padding: 40px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+h1 {
+    color: #343a40;
+    font-size: 32px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}

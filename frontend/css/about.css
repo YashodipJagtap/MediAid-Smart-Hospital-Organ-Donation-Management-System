@@ -1,0 +1,48 @@
+/* about.css */
+
+/* General styles */
+
+
+body {
+    font-family: 'Arial', sans-serif !important;
+    background-color: #d3d3d3 !important;
+    /* background-color: #fafafa !important; */
+    color: #333 !important;
+}
+
+h2 {
+    font-weight: bold !important;
+    color: #007bff !important;
+}
+
+/* About Section */
+#about img {
+    max-width: 80% !important;
+    border-radius: 10px !important;
+}
+
+/* Our Mission Icons */
+#mission i {
+    color: #007bff !important;
+    margin-bottom: 15px !important;
+}
+
+/* Team Images */
+#doctors img {
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: cover !important;
+    border: 5px solid #007bff !important;
+    border-radius: 50% !important;
+    /* Makes the image circular */
+}
+
+/* Developer Image */
+#developer img {
+    width: 250px !important;
+    /* Set width for developer image */
+    height: 250px !important;
+    /* Set height for developer image */
+    border-radius: 50% !important;
+    /* Makes the image circular */
+}
